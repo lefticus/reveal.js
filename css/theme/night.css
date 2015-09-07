@@ -139,7 +139,6 @@ body {
   display: block;
   padding: 5px;
   overflow: auto;
-  max-height: 400px;
   word-wrap: normal;
   background: #3F3F3F;
   color: #DCDCDC; }
@@ -262,4 +261,5 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #e7ad52; }
+  color: #e7ad52;
+  font-size: 12px; }
