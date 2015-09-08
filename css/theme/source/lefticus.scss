@@ -40,12 +40,23 @@ $heading4Size: 1.0em;
 $slideNumberSize: 24px;
 
 section.has-dark-background {
-	&, h1, h2, h3, h4, h5, h6 {
-		color: #fff;
-	}
+  &, h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
 }
 
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.reveal .slides {
+  text-align: left;
+}
+
+
+.reveal h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+
