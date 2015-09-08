@@ -145,8 +145,8 @@ body {
   padding: 5px;
   overflow: auto;
   word-wrap: normal;
-  background: #3F3F3F;
-  color: #DCDCDC; }
+  background: #FFFFDD;
+  color: #000000; }
 
 .reveal table {
   margin: auto;
