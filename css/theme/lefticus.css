@@ -8,8 +8,8 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: rgba(97, 166, 243, 0.05);
-  background-color: rgba(97, 166, 243, 0.05); }
+  background: #FFFFFF;
+  background-color: #FFFFFF; }
 
 .reveal {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
@@ -275,3 +275,7 @@ body {
   left: 16;
   top: 16;
   opacity: 0.9; }
+
+.reveal pre code {
+  background: #FFFFDD;
+  color: #000000; }

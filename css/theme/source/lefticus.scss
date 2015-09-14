@@ -16,7 +16,7 @@
 
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: rgba(97, 166, 243, 0.05);
+$backgroundColor: #FFFFFF;
 
 $mainColor: #222;
 $headingColor: #222;
@@ -66,5 +66,15 @@ $slideNumberSize: 24px;
   opacity: 0.9;
 }
 
+
+.reveal pre code {
+//	display: block;
+//	padding: 5px;
+//	overflow: auto;
+//	max-height: 90%;
+//	word-wrap: normal;
+	background: #FFFFDD;
+	color: #000000;
+}
 
 
