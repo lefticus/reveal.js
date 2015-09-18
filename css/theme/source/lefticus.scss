@@ -1,0 +1,98 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #FFFFFF;
+
+$mainColor: #222;
+$headingColor: #222;
+
+$mainFontSize: 34px;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$heading1TextShadow: 2px 2px 1px #AAAAAA;
+$headingLetterSpacing: normal;
+$headingFontWeight: 550;
+$headingTextTransform: none;
+$linkColor: #2a76dd;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.3em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+$slideNumberSize: 24px;
+
+//section.has-dark-background {
+//  &, h1, h2, h3, h4, h5, h6 {
+//    color: #fff;
+//  }
+//}
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+.reveal .slides {
+  text-align: left;
+}
+
+
+.reveal h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+.reveal .footer {
+  position: absolute;
+  left: 16; 
+  top: 16;
+  opacity: 0.9;
+}
+
+
+.reveal pre code {
+//	display: block;
+//	padding: 5px;
+//	overflow: auto;
+//	max-height: 90%;
+//	word-wrap: normal;
+        font-family: "Liberation Mono";
+        max-height: 100%;
+//	background: #FFFFDD;
+        font-weight: 150;
+//	color: #000000;
+}
+
+.reveal li code {
+  background: #FFFFDD;
+  font-size: .7em;
+}
+
+.reveal p code {
+  background: #FFFFDD;
+  font-size: .7em;
+}
+
+.reveal .slide-number {
+  font-size: .8em;
+}
+
+
+
