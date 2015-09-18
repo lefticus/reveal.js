@@ -2473,17 +2473,17 @@
 		if( config.slideNumber && dom.slideNumber) {
 
 			// Default to only showing the current slide number
-			var format = 'c';
+			var format = '$c';
 
 			// Check if a custom slide number format is available
 			if( typeof config.slideNumber === 'string' ) {
 				format = config.slideNumber;
 			}
 
-			dom.slideNumber.innerHTML = format.replace( /h/g, indexh )
-												.replace( /v/g, indexv )
-												.replace( /c/g, getSlidePastCount() + 1 )
-												.replace( /t/g, getTotalSlides() );
+			dom.slideNumber.innerHTML = format.replace( /\$h/g, indexh )
+												.replace( /\$v/g, indexv )
+												.replace( /\$c/g, getSlidePastCount() + 1 )
+												.replace( /\$t/g, getTotalSlides() );
 		}
 
 	}
