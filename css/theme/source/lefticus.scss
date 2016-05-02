@@ -16,7 +16,8 @@
 
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: #FFFFFF;
+//$backgroundColor: #FFFFFF;
+$backgroundColor:  #fdf6e3;
 
 $mainColor: #222;
 $headingColor: #222;
@@ -44,6 +45,7 @@ $slideNumberSize: 24px;
 //    color: #fff;
 //  }
 //}
+
 
 
 // Theme template ------------------------------
@@ -75,20 +77,47 @@ $slideNumberSize: 24px;
 //	word-wrap: normal;
 //        font-family: "monospace";
         max-height: 100%;
+        letter-spacing: 1px;
 //	background: #FFFFDD;
-        font-weight: 600;
+        font-weight: 500;
+        font-size: 1.1em;
 //	color: #000000;
 }
 
-.reveal li code {
-  background: #FFFFDD;
+.reveal h2 code {
+  background: #FFFFFF;
+  padding: 5px;
+  border-width: 2px;
+  border-style: dashed;
   font-size: .7em;
 }
 
-.reveal p code {
-  background: #FFFFDD;
+.reveal h3 code {
+  background: #FFFFFF;
+  padding: 5px;
+  border-width: 2px;
+  border-style: dashed;
   font-size: .7em;
 }
+
+
+.reveal li code {
+  background: #FFFFFF;
+  padding: 5px;
+  border-width: 2px;
+  border-style: dashed;
+  font-size: .7em;
+}
+
+
+.reveal p code {
+  background: #FFFFFF;
+  padding: 5px;
+  border-width: 2px;
+  border-style: dashed;
+  font-size: .7em;
+}
+
 
 .reveal .slide-number {
   font-size: .8em;
