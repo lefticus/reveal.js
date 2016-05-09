@@ -84,6 +84,12 @@ $slideNumberSize: 24px;
 //	color: #000000;
 }
 
+.reveal section img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .reveal h2 code {
   background: #FFFFFF;
   padding: 5px;
